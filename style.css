@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container form {
+  background-color: rgb(70, 67, 67);
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(94, 94, 95));
+  width: 450px;
+  border-radius: 5%;
+  height: 81vh;
+  padding-top: 40px;
+}
+
+.container form img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+}
+
+.container form h3,
+.container form h6 {
+  text-align: center;
+}
+
+.container form h3 {
+  color: #fff;
+}
+
+.container form h6 {
+  color: #ccc9c9;
+}
+
+.container form .btn {
+  background-color: rgb(245, 180, 39);
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 60px;
+  border-radius: 50px;
+  width: 80px;
+}
+
+.container form .gelombang {
+  margin-top: -98px;
+  border-radius: 0 0 20px 20px;
+  opacity: 200%;
+}
+
+.container form .gelombang2 {
+  margin-top: -57px;
+  opacity: 50%;
+}
+
+.container form .gelombang3 {
+  opacity: 20%;
+  margin-top: -39px;
+}
+
+.container form .input-group {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.container form .input-group.user input {
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+.container form .input-group.pass input {
+  margin-left: 50px;
+  border-radius: 50px;
+}
